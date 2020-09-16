@@ -33,8 +33,8 @@ ivansajimeleth@gmail.com
 def send_mail(job_mail,mail_subject,mail_body):
     #Performs the mail operation
     # Inset the mail creds here
-    gmail_user = "ivansaji619@gmail.com"   #Enter the user email ID
-    gmail_pwd = "cyberfreak@gmail"       #Enter the User Password 
+    gmail_user = "thisisnottheemail"   #Enter the user email ID
+    gmail_pwd = "thisisnotthepassword"       #Enter the User Password 
     
     TO = [job_mail]     # must be a list (Recepient mail)
     msg = MIMEMultipart()
