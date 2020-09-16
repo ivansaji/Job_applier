@@ -90,7 +90,18 @@ def send_mail(job_mail,mail_subject,mail_body):
 #End of methods
 #main begin
 os.system("clear")
-print("\n Job Mailer")
+logo = '''
+ 
+       __      __       __  ___      _ __         
+      / /___  / /_     /  |/  /___ _(_) /__  _____
+ __  / / __ \/ __ \   / /|_/ / __ `/ / / _ \/ ___/
+/ /_/ / /_/ / /_/ /  / /  / / /_/ / / /  __/ /    
+\____/\____/_.___/  /_/  /_/\__,_/_/_/\___/_/     
+                                                  
+Created By: CyberFreak
+github.com/ivansaji
+ '''
+print(logo)
 job_role = input("\nEnter the job role\n")
 job_company = input("\nEnter the name of the Company\n")
 job_mail = input("\nEnter the Mail ID of HR (Recepient)\n")
